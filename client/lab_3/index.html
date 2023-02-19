@@ -1,5 +1,42 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tammy's Labs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"><h1>Tammy's Labs for INST377</h1></header>
+    <div class="container">
+      <div class="left_section box">
+        <h3>Album Names</h3>
+        <ol class="box">
+          <li>The Weeknd - After Hours</li>
+          <li>keshi - GABRIEL</li>
+          <li>Ariana Grande - thank you, next </li>
+          <li>Jenevieve - Rendezvous</li>
+          <li>Jooyoung - Fountain</li>
+        </ol>
+      </div>
+      <div class="right_section box">
+        <h3>Image Carousel</h3>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+                <div class="carousel_item visible"><img id="slide_1" src='images/black_cat.jpg' alt="An image of a black cat."/></div>
+                <div class="carousel_item hidden"><img id="slide_2" src='images/grey_cat.jpg' alt="An image of a grey cat."/></div>
+                <div class="carousel_item hidden"><img id="slide_3" src='images/orange_cat.jpg' alt="An image of an orange cat."/></div>
+                <div class="carousel_item hidden"><img id="slide_4" src='images/white_cat.jpg' alt="An image of a white cat."/></div>
+            </div>
+            <button class="next">next</button>
+        </div>
+        <div class="box">Pictured above are images of mochi. Mochi is Japanese rice cake.</div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer"><a href="https://github.com/tammymolina/INST377-Lab-Work" target="_blank" rel="noopener noreferrer">tammymolina Github Account</a></footer>
+  <script src="script.js" ></script>
+</body>
+</html>
