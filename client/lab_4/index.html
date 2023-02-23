@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,9 +7,29 @@
     <title>Tammy's Labs</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <h1>Tammy's Labs for INST377</h1>
+        </header>
+        <div class="container">
+            <div class="left_section box">
+                <h3>Form Inputs</h3>
+                <form action="/api" class="box">
+                    <label for="resto"></label>
+                    <input type="text" id="resto"> <!-- in lec vid at 9:45 "take out 'name' or youll get an error" -->
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="right_section box">
+                <h3>Local Restaurants</h3>
+                <div class="restaurant_list box">A list of local restaurants</div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
 <!-- Bring in your successful HTML/CSS from the Flexbox lab -->
 <!-- Try typing 'doc' at the top of this file and pressing "tab" -->
