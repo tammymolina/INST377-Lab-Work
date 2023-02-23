@@ -92,8 +92,8 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
-  color: #4a4a4a;
+  background-color: #A4133C;
+  color: #FFF0F3;
 
   /* shapes */
   border-radius: 6px;
@@ -117,7 +117,7 @@ form {
 */
 
 .box {
-  background-color: rgba(239, 239, 239, 0.40);
+  background-color: rgba(239, 239, 239, 0.4);
   border: 2px dashed;
   border-radius: 4px;
 
@@ -128,14 +128,14 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #FF8FA3;
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: #D6D3F0;
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center; 
@@ -153,13 +153,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #590D22;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: #FFB3C1;
   text-decoration: underline;
 }
 
