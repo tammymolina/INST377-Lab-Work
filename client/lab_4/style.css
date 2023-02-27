@@ -141,7 +141,7 @@ form {
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center; 
-  max-width: 450px;
+  /*max-width: 450px;*/ /*lab 4*/
   display: flex; /*from lec vid*/
   flex-direction: column; /*from lec vid*/
 }
@@ -314,5 +314,15 @@ form input {
     }
     .right_section {
       align-items: flex-start;
+      width: 95%;
     }
+    .restaurant_list {
+      width: 100%;
+    }
+    .left_section {
+      width: 95%;
+    }
+    .input_res {
+      width: 100%;
+    }  
 }
