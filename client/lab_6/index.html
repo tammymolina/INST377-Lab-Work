@@ -7,3 +7,54 @@
 
     Try placing it at the same level in your element tree as your Submit button
 -->
+<!-- Bring in your successful HTML/CSS from the Flexbox lab -->
+<!-- Your page will need a form in it, but that form will not need an action
+    You will need to add the attribute "name" to your input
+    with a value of 'resto'
+
+    You will need to hook your script.js to this file for the midterm to work
+    you will need a "filter" button with a type of "button" and a
+    "load data" button with a type of "submit" on it
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tammy's Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Tammy's Labs for INST377</h1>
+        </header>
+        <div class="container">
+            <div class="left_section box">
+                <h2>Form Inputs</h2>
+                <form action="https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json" class="box main_form">
+                    <button type="button" id="data_load">Load County Data</button>
+                    <div>
+                        <label for="resto">Restaurant Name</label>
+                        <input type="text" id="resto" name="resto"> 
+                    </div>
+                    <button type="button" id="filter">Filter Data</button>
+                    <button type="button" id="generate">Generate List</button>
+                </form>   
+            </div>
+            <div class="right_section box">
+                <h2>Local Restaurant List</h2>
+                <ol class="restaurant_list box">
+                    A list of local restaurants from an API
+                </ol>
+                <div class="lds-ellipsis" id="data_load_animation"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"><a href="https://github.com/tammymolina/INST377-Lab-Work" target="_blank" rel="noopener noreferrer">tammymolina Github Account</a></footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
